@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   const [regionInfo, setRegionInfo] = useState(null)
-  const [mapMode, setMapMode] = useState("district")
+  const [mapMode, setMapMode] = useState("state")
   const [modalOpen, setModalOpen] = useState(false)
 
   const handleRegionClick = (region) => {
@@ -64,6 +64,7 @@ function App() {
 
       {/* Footer Button */}
       <footer className="mt-10">
+        @2025 MapSaathi. All rights reserved.
       </footer>
     </div>
   )
