@@ -158,7 +158,7 @@ const StateCanvas = ({ onRegionClick, mode = "district" }) => {
   }, [renderMap]);
 
   return (
-    <div className="rotate-[-8deg] shadow-lg rounded-xl overflow-hidden relative">
+    <div className="shadow-lg rounded-xl overflow-hidden relative">
       {isLoading && (
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 z-10">
           <div className="text-white">Loading map...</div>

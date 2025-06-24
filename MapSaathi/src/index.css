@@ -81,3 +81,6 @@ button:focus-visible {
   border-radius: 1rem;
   box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
 }
+
+
+@import "tailwindcss"

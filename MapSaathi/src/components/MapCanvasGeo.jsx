@@ -97,7 +97,7 @@ const MapCanvasGeo = ({ onRegionClick }) => {
   }, [geoData, selectedFeature]);
 
   return (
-    <div className="rotate-[-8deg] shadow-lg rounded-xl overflow-hidden">
+    <div className="shadow-lg rounded-xl overflow-hidden">
       <canvas
         ref={canvasRef}
         width={600}
